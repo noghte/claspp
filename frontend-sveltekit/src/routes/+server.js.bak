@@ -1,0 +1,25 @@
+import { json, error } from "@sveltejs/kit";
+// import fs from "node:fs";
+import kianseData from '$lib/kinase_data.json';
+
+export function GET({url}) {
+  console.log(url);
+  console.log(kianseData);
+  // let uniprot_id = url.searchParams.get('uid');
+  // console.log("PP", uniprot_id)
+  // if (isNaN(uniprot_id)) {
+  //   throw error(401, "uid (Uniprot Id) is mandatory and must be an integer");
+  // }
+  // uniprot_id = parseInt(uniprot_id);
+
+
+  // // if (!query) {
+  // //   throw error(401, "Query (`?q=`) is required");
+  // // }
+  // const result = kinaseJson.prepare(query).all();
+  // // const result = json(stmt).all();
+  // console.log("RES:",result);
+  // return json(result);
+  return kianseData;
+
+}

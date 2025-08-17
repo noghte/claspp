@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+.nav-link {
+    @apply px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none;
+  }
+}
+/* @layer base {
+    @font-face {
+        font-family: Vazirmatn;
+        font-weight: 400;
+        src: url(/fonts/webfonts/Vazirmatn-Black.woff2) format("woff");
+    }
+
+    @font-face {
+        font-family: Vazirmatn;
+        font-weight: 500;
+        src: url(/fonts/webfonts/Vazirmatn-Bold.woff2) format("woff");
+    }
+    html {
+        font-family: Vazirmatn, Tahoma, sans-serif;
+      }
+} */

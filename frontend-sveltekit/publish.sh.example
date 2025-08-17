@@ -1,0 +1,2 @@
+npm run build
+scp -r ./build/*  package.json ecosystem.config.cjs USERNAME@FRONTEND_SERVER:/var/www/claspp_frontend/
