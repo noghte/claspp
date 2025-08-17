@@ -10,5 +10,5 @@ safetensors==0.3.1
 scipy==1.5.4
 tokenizers==0.12.1
 transformers==4.30.2
-urllib3==1.26.13
+urllib3==2.5.0
 gunicorn
