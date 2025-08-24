@@ -1,3 +1,6 @@
+<script>
+  import { assets } from '$app/paths';
+</script>
 <section class="mx-auto max-w-3xl px-6 py-12">
   <h1 class="text-3xl sm:text-4xl font-semibold tracking-tight">
     <span class="bg-gradient-to-r from-black to-zinc-600 bg-clip-text text-transparent">
@@ -31,6 +34,6 @@
   </div>
   <br />
 
-  <img src="/architecture.png" alt="CLASPP architecture" class="mt-8 mb-6" />
+  <img src={`${assets}/architecture.png`} alt="CLASPP architecture" class="mt-8 mb-6" />
 
 </section>

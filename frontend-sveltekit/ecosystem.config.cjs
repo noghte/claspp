@@ -2,15 +2,10 @@ module.exports = {
   apps: [
     {
       name: 'claspp',
-      script: './index.js',
-      watch: false,
-      ignore_watch: ['node_modules'],
-      autorestart: true,
+      script: 'index.js',
+      cwd: '/var/www/claspp_frontend',
       node_args: '--experimental-modules',
-      env: {
-        NODE_ENV: 'production',
-        PORT: 8085
-      }
+      env: { NODE_ENV: 'production', PORT: 8091, HOST: '127.0.0.1' }
     }
   ]
-};
+}
