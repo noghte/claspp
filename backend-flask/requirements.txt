@@ -9,6 +9,6 @@ requests==2.28.1
 safetensors==0.3.1
 scipy==1.5.4
 tokenizers==0.12.1
-transformers==4.30.2
+transformers==4.53.0
 urllib3==1.26.13
 gunicorn
